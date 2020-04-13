@@ -1,0 +1,137 @@
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lato";
+}
+
+li {
+  list-style: none;
+}
+.header {
+    color: #fff;
+    background-color: #586b9e;
+    height: 90px;
+  } 
+  .header-logo {
+    float:left;
+    font-size: 36px;
+    padding: 20px 40px;
+  }
+  .header-list {
+    float:center;
+  } 
+  
+  .header-list li {
+    padding: 33px 20px;
+    float:right;
+    
+  }
+  body{
+    margin: 0;
+    padding: 0;
+  
+    opacity: 1;
+    width: inherit;
+  }
+  .top-wrapper {
+    background-image: url(https://images.newscientist.com/wp-content/uploads/2019/07/04110119/f77f3m.jpg);
+    background-size: cover;
+  }
+  .box{
+    width: 450px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: rgb(12, 12, 12);
+    font-family: 'Century Gothic',sans-serif;
+    background-color: transparent;
+  }
+  .box-img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(8, 8, 8);
+  }
+  .box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+  }
+  .box p{
+    text-align: justify;
+  }
+  .box li {
+    color: black;
+    background: #586b9e;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  .box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+  }
+  .box li a{
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+  }
+  .box li a:hover{
+    color: #b9b9b9;
+    box-shadow: transparent;
+  }
+  img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    width: 300px;
+  }
+  .lesson {
+    float: left;
+    width: 30%;
+    margin: 5px;
+  }
+  .lesson-icon {
+    position: relative;
+  }
+  .lesson-icon p {
+    position: static;
+    top: 90px;
+    width: 100%;
+    color: white;
+  }
+  .txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #b3aeb5;
+  }  
+  .footer {
+    background-color: #586b9e;
+    color:#fff;
+    height: 120px;
+    padding: 40px;
+    
+  }
+  .footer-logo {
+    font-size: 32px;
+    float:left;
+  }
+  .footer-list {
+    float: right;
+  }
+  .footer-list li {
+    padding-bottom: 20px;
+  }
+  
+  
